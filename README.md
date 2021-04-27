@@ -2,7 +2,7 @@
 根据请求api生成签名(Signature)并打印出response信息
 
 
-# 配置
+## 配置
 ``` python
 `修改为你要请求的api`
 ucloud_request_data = {
@@ -21,7 +21,7 @@ if __name__ == '__main__':
     show_info(api_url, ucloud_request_data, privite_key)
 ```
 
-# 测试
+## 测试
 
 ```python
 ~/workspace/ucloud-api-signature(master) » python gen_signature.py 
